@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Container */
+#main-container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+#banner-container,
+#form-container {
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#banner-container {
+  text-align: right;
+}
+
+#banner-container img {
+  width: 100%;
+  max-width: 38rem;
+
+  margin-right: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+#form-container {
+  text-align: center;
+}
+
+/* Login Form */
+#form-box {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  width: 35rem;
+  margin: 3rem;
+}
+
+#logo-insta {
+  width: 17.5rem;
+  height: 5.1rem;
+  margin: 3rem auto 1.2rem;
+}
+
+#login-form {
+  margin-top: 2rem;
+}
+
+#login-form input {
+  display: block;
+  font-size: 1.2rem;
+  padding: 1.2rem 0.9rem;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+
+  width: 26.8rem;
+  margin: 0.5rem auto;
+}
+
+#login-form input[type='submit'] {
+  background-color: rgb(0, 149, 246);
+  color: #fff;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  padding: 0;
+  font-weight: bold;
+  opacity: 0.7;
+
+  border: none;
+  outline: 0;
+}
+
+/* Separador */
+.separator {
+  position: relative;
+}
+
+.line {
+  border-top: 1px solid #dbdbdb;
+  width: 26.8rem;
+  margin: 2.5rem auto 3.5rem;
+}
+
+.separator span {
+  position: absolute;
+  text-transform: uppercase;
+  color: #bbb;
+  background-color: #fff;
+  top: -6px;
+  width: 5rem;
+
+  transform: translate(-50%);
+  font-size: 1.4rem;
+}
+
+/* Facebook Login */
+#facebook-login {
+  margin-bottom: 2.5rem;
+}
+
+#facebook-login a {
+  text-decoration: none;
+  color: #385185;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#facebook-login img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+#facebook-login span {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 1px;
+}
+
+/* Esqueceu a Senha */
+#forgot-pass {
+  margin: 2.5rem;
+  font-size: 1.2rem;
+}
+
+#forgot-pass a {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-size: 400;
+  text-decoration: none;
+  color: rgb(0, 55, 107);
+}
+
+/* Registro */
+#register-container {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  width: 35rem;
+  margin: 1rem 3rem;
+  padding: 2.5rem;
+}
+
+#register-container p {
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
+}
+
+#register-container a {
+  color: #4a95f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Obter app */
+#get-app-container {
+  text-align: center;
+  margin: 1rem 3rem;
+  width: 35rem;
+}
+
+#get-app-container p {
+  font-size: 1.6rem;
+  margin: 2rem 0;
+}
+
+#get-app-container img {
+  width: 13.6rem;
+  height: 4rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3.2rem;
+  text-align: left;
+  width: 80%;
+  max-width: 100rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer #footer-links {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.6rem;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+#footer-links a {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 1.4rem;
+}
+
+.copyright-content {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* Media Query */
+@media (max-width: 870px) {
+  body {
+    background-color: #fff;
+  }
+
+  #form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #banner-container {
+    display: none;
+  }
+
+  foooter {
+    width: 90%;
+  }
+
+  footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+}
