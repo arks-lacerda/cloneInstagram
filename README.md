@@ -2,7 +2,7 @@
 
 Projeto de **clone do Instagram** desenvolvido para fins de aprendizado e prática de habilidades de HTML, CSS e JavaScript. Este projeto visa replicar a interface do usuário do Instagram, focando em uma aparência visual próxima da original, com funcionalidades básicas.
 
-![Preview do Projeto](https://via.placeholder.com/800x400)
+![Preview do Projeto](https://github.com/arks-lacerda/cloneInstagram/blob/main/.github/screenshot.png/800x400)
 
 ## 📌 Visão Geral
 
